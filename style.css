@@ -1,0 +1,70 @@
+/* General reset and base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Rule */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Aside Rule */
+aside {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-left: 3px solid #ccc;
+}
+
+/* Aside Image Rule */
+aside img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph Rule */
+p {
+  padding: 0;
+}
+
+/* Footer Rule */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Nav Rule */
+nav {
+  background-color: #333;
+  padding: 0.5rem 1rem;
+}
+
+/* Nav Anchor Rule */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+/* Heading 1 Rule */
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* Image Rule */
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
