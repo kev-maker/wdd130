@@ -1,0 +1,111 @@
+/* Fonts and Variables */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+:root {
+  --primary-color: #3a86ff;
+  --secondary-color: #ffbe0b;
+  --accent-color: #8338ec;
+  --text-color: #333;
+  --bg-color: #fff;
+}
+
+/* Header: Grid layout and uniform alignment */
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Nav: Flexbox horizontal layout */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255,255,255,0.9);
+  padding: 10px;
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.hero article img {
+  float: right;
+  margin-left: 10px;
+  width: 100px;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  color: var(--text-color);
+}
+
+/* Footer with right-aligned social icons */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer .socials {
+  display: flex;
+  gap: 10px;
+}
+
+footer .socials a img {
+  width: 24px;
+  text-decoration: none;
+}
+
+/* Ensure good color contrast (AA compliant) */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
