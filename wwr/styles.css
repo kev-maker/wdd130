@@ -109,3 +109,36 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+.contact-info, .team, .contact-form {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+
+figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form input, form textarea {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #0275d8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #025aa5;
+}
