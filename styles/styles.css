@@ -56,3 +56,88 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* -------------------------------
+week--------------------------------*/
+/* -------------------------------
+   NAVIGATION
+--------------------------------*/
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+/* -------------------------------
+   MAIN SECTION
+--------------------------------*/
+main {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+/* -------------------------------
+   HEADING
+--------------------------------*/
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* -------------------------------
+   MAIN IMAGE
+--------------------------------*/
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 10px auto;
+}
+
+/* -------------------------------
+   ASIDE SECTION
+--------------------------------*/
+aside {
+  width: 20rem;
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* -------------------------------
+   PARAGRAPHS
+--------------------------------*/
+p {
+  padding: 0;
+}
+
+/* -------------------------------
+   FOOTER
+--------------------------------*/
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+
